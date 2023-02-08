@@ -3,7 +3,6 @@
 *.pot
 *.pyc
 __pycache__
-portali
 */__pycache__/
 db.sqlite3
 media
