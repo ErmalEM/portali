@@ -1,2 +1,26 @@
-.bin
-portali/portali/bin
+# Django specific files
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Log files
+*.log
+
+# Settings and secrets
+local_settings.py
+secrets.py
+
+# SQLite database file
+db.sqlite3
+
+# Media and static files
+media/
+static/
+
+# Cache files
+.cache/
+
+# Environments
+.env
+.venv/
