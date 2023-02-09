@@ -44,7 +44,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 
-TIME_ZONE = 'Europe/Pristina'
+AUTH_USER_MODEL = 'users.CustomUser'
+
+TIME_ZONE = 'America/New_York'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -126,7 +128,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
-AUTH_USER_MODEL = 'users.CustomUser'
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
